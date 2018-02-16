@@ -12,6 +12,14 @@
 		CB80CAD020375A3B00E110AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB80CACE20375A3B00E110AE /* Main.storyboard */; };
 		CB80CAD220375A3B00E110AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB80CAD120375A3B00E110AE /* Assets.xcassets */; };
 		CB80CAD520375A3B00E110AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB80CAD320375A3B00E110AE /* LaunchScreen.storyboard */; };
+		CB80CAE020375D4E00E110AE /* TestVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CADF20375D4E00E110AE /* TestVC1.swift */; };
+		CB80CAE220375D6200E110AE /* TestVC2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAE120375D6200E110AE /* TestVC2ViewController.swift */; };
+		CB80CAE420375D7700E110AE /* TestVc3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAE320375D7700E110AE /* TestVc3ViewController.swift */; };
+		CB80CAE620375D8100E110AE /* TestVc4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAE520375D8100E110AE /* TestVc4ViewController.swift */; };
+		CB80CAE820375D8B00E110AE /* TestVc5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAE720375D8B00E110AE /* TestVc5ViewController.swift */; };
+		CB80CAEA20375D9400E110AE /* TestVC6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAE920375D9400E110AE /* TestVC6ViewController.swift */; };
+		CB80CAEC20375D9E00E110AE /* TestVc8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAEB20375D9E00E110AE /* TestVc8ViewController.swift */; };
+		CB80CAEE20375DAB00E110AE /* TestVc7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAED20375DAB00E110AE /* TestVc7ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		CB80CAD120375A3B00E110AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB80CAD420375A3B00E110AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB80CAD620375A3B00E110AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB80CADF20375D4E00E110AE /* TestVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC1.swift; sourceTree = "<group>"; };
+		CB80CAE120375D6200E110AE /* TestVC2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC2ViewController.swift; sourceTree = "<group>"; };
+		CB80CAE320375D7700E110AE /* TestVc3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVc3ViewController.swift; sourceTree = "<group>"; };
+		CB80CAE520375D8100E110AE /* TestVc4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVc4ViewController.swift; sourceTree = "<group>"; };
+		CB80CAE720375D8B00E110AE /* TestVc5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVc5ViewController.swift; sourceTree = "<group>"; };
+		CB80CAE920375D9400E110AE /* TestVC6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC6ViewController.swift; sourceTree = "<group>"; };
+		CB80CAEB20375D9E00E110AE /* TestVc8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVc8ViewController.swift; sourceTree = "<group>"; };
+		CB80CAED20375DAB00E110AE /* TestVc7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVc7ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +70,46 @@
 		CB80CAC920375A3B00E110AE /* githubtest */ = {
 			isa = PBXGroup;
 			children = (
+				CB80CADE20375D3D00E110AE /* New Group2 */,
+				CB80CADD20375D3B00E110AE /* New Group1 */,
+				CB80CADC20375D3700E110AE /* New Group */,
 				CB80CACA20375A3B00E110AE /* AppDelegate.swift */,
 				CB80CACC20375A3B00E110AE /* ViewController.swift */,
 				CB80CACE20375A3B00E110AE /* Main.storyboard */,
 				CB80CAD120375A3B00E110AE /* Assets.xcassets */,
 				CB80CAD320375A3B00E110AE /* LaunchScreen.storyboard */,
 				CB80CAD620375A3B00E110AE /* Info.plist */,
+				CB80CADF20375D4E00E110AE /* TestVC1.swift */,
+				CB80CAED20375DAB00E110AE /* TestVc7ViewController.swift */,
 			);
 			path = githubtest;
+			sourceTree = "<group>";
+		};
+		CB80CADC20375D3700E110AE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CB80CAE120375D6200E110AE /* TestVC2ViewController.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CB80CADD20375D3B00E110AE /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				CB80CAE320375D7700E110AE /* TestVc3ViewController.swift */,
+				CB80CAE520375D8100E110AE /* TestVc4ViewController.swift */,
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		CB80CADE20375D3D00E110AE /* New Group2 */ = {
+			isa = PBXGroup;
+			children = (
+				CB80CAE720375D8B00E110AE /* TestVc5ViewController.swift */,
+				CB80CAE920375D9400E110AE /* TestVC6ViewController.swift */,
+				CB80CAEB20375D9E00E110AE /* TestVc8ViewController.swift */,
+			);
+			path = "New Group2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB80CAE220375D6200E110AE /* TestVC2ViewController.swift in Sources */,
+				CB80CAE420375D7700E110AE /* TestVc3ViewController.swift in Sources */,
+				CB80CAE620375D8100E110AE /* TestVc4ViewController.swift in Sources */,
+				CB80CAEC20375D9E00E110AE /* TestVc8ViewController.swift in Sources */,
+				CB80CAE820375D8B00E110AE /* TestVc5ViewController.swift in Sources */,
+				CB80CAEA20375D9400E110AE /* TestVC6ViewController.swift in Sources */,
 				CB80CACD20375A3B00E110AE /* ViewController.swift in Sources */,
 				CB80CACB20375A3B00E110AE /* AppDelegate.swift in Sources */,
+				CB80CAE020375D4E00E110AE /* TestVC1.swift in Sources */,
+				CB80CAEE20375DAB00E110AE /* TestVc7ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
