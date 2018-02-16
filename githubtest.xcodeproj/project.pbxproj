@@ -21,6 +21,11 @@
 		CB80CAEC20375D9E00E110AE /* TestVc8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAEB20375D9E00E110AE /* TestVc8ViewController.swift */; };
 		CB80CAEE20375DAB00E110AE /* TestVc7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAED20375DAB00E110AE /* TestVc7ViewController.swift */; };
 		CB80CAF0203760E800E110AE /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = CB80CAEF203760E800E110AE /* .gitattributes */; };
+		CB80CAF3203761DB00E110AE /* gitattributes1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAF2203761DB00E110AE /* gitattributes1.swift */; };
+		CB80CAF5203761EF00E110AE /* gitattributes2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAF4203761EF00E110AE /* gitattributes2.swift */; };
+		CB80CAF7203761FB00E110AE /* gitattributes4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAF6203761FB00E110AE /* gitattributes4.swift */; };
+		CB80CAF92037620800E110AE /* gitattributes5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAF82037620800E110AE /* gitattributes5.swift */; };
+		CB80CAFB2037621300E110AE /* gitattributes6.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAFA2037621300E110AE /* gitattributes6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,11 @@
 		CB80CAEB20375D9E00E110AE /* TestVc8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVc8ViewController.swift; sourceTree = "<group>"; };
 		CB80CAED20375DAB00E110AE /* TestVc7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVc7ViewController.swift; sourceTree = "<group>"; };
 		CB80CAEF203760E800E110AE /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		CB80CAF2203761DB00E110AE /* gitattributes1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitattributes1.swift; sourceTree = "<group>"; };
+		CB80CAF4203761EF00E110AE /* gitattributes2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitattributes2.swift; sourceTree = "<group>"; };
+		CB80CAF6203761FB00E110AE /* gitattributes4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitattributes4.swift; sourceTree = "<group>"; };
+		CB80CAF82037620800E110AE /* gitattributes5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitattributes5.swift; sourceTree = "<group>"; };
+		CB80CAFA2037621300E110AE /* gitattributes6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitattributes6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		CB80CABE20375A3B00E110AE = {
 			isa = PBXGroup;
 			children = (
+				CB80CAF6203761FB00E110AE /* gitattributes4.swift */,
 				CB80CAEF203760E800E110AE /* .gitattributes */,
 				CB80CAC920375A3B00E110AE /* githubtest */,
 				CB80CAC820375A3B00E110AE /* Products */,
@@ -73,6 +84,7 @@
 		CB80CAC920375A3B00E110AE /* githubtest */ = {
 			isa = PBXGroup;
 			children = (
+				CB80CAF1203761C400E110AE /* AfterGitAttributes */,
 				CB80CADE20375D3D00E110AE /* New Group2 */,
 				CB80CADD20375D3B00E110AE /* New Group1 */,
 				CB80CADC20375D3700E110AE /* New Group */,
@@ -84,6 +96,8 @@
 				CB80CAD620375A3B00E110AE /* Info.plist */,
 				CB80CADF20375D4E00E110AE /* TestVC1.swift */,
 				CB80CAED20375DAB00E110AE /* TestVc7ViewController.swift */,
+				CB80CAF82037620800E110AE /* gitattributes5.swift */,
+				CB80CAFA2037621300E110AE /* gitattributes6.swift */,
 			);
 			path = githubtest;
 			sourceTree = "<group>";
@@ -113,6 +127,15 @@
 				CB80CAEB20375D9E00E110AE /* TestVc8ViewController.swift */,
 			);
 			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		CB80CAF1203761C400E110AE /* AfterGitAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				CB80CAF2203761DB00E110AE /* gitattributes1.swift */,
+				CB80CAF4203761EF00E110AE /* gitattributes2.swift */,
+			);
+			path = AfterGitAttributes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,16 +211,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB80CAFB2037621300E110AE /* gitattributes6.swift in Sources */,
 				CB80CAE220375D6200E110AE /* TestVC2ViewController.swift in Sources */,
 				CB80CAE420375D7700E110AE /* TestVc3ViewController.swift in Sources */,
 				CB80CAE620375D8100E110AE /* TestVc4ViewController.swift in Sources */,
 				CB80CAEC20375D9E00E110AE /* TestVc8ViewController.swift in Sources */,
+				CB80CAF5203761EF00E110AE /* gitattributes2.swift in Sources */,
 				CB80CAE820375D8B00E110AE /* TestVc5ViewController.swift in Sources */,
 				CB80CAEA20375D9400E110AE /* TestVC6ViewController.swift in Sources */,
 				CB80CACD20375A3B00E110AE /* ViewController.swift in Sources */,
 				CB80CACB20375A3B00E110AE /* AppDelegate.swift in Sources */,
 				CB80CAE020375D4E00E110AE /* TestVC1.swift in Sources */,
+				CB80CAF3203761DB00E110AE /* gitattributes1.swift in Sources */,
+				CB80CAF92037620800E110AE /* gitattributes5.swift in Sources */,
 				CB80CAEE20375DAB00E110AE /* TestVc7ViewController.swift in Sources */,
+				CB80CAF7203761FB00E110AE /* gitattributes4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
