@@ -20,6 +20,7 @@
 		CB80CAEA20375D9400E110AE /* TestVC6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAE920375D9400E110AE /* TestVC6ViewController.swift */; };
 		CB80CAEC20375D9E00E110AE /* TestVc8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAEB20375D9E00E110AE /* TestVc8ViewController.swift */; };
 		CB80CAEE20375DAB00E110AE /* TestVc7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAED20375DAB00E110AE /* TestVc7ViewController.swift */; };
+		CB80CAF0203760E800E110AE /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = CB80CAEF203760E800E110AE /* .gitattributes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		CB80CAE920375D9400E110AE /* TestVC6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVC6ViewController.swift; sourceTree = "<group>"; };
 		CB80CAEB20375D9E00E110AE /* TestVc8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVc8ViewController.swift; sourceTree = "<group>"; };
 		CB80CAED20375DAB00E110AE /* TestVc7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVc7ViewController.swift; sourceTree = "<group>"; };
+		CB80CAEF203760E800E110AE /* .gitattributes */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CB80CABE20375A3B00E110AE = {
 			isa = PBXGroup;
 			children = (
+				CB80CAEF203760E800E110AE /* .gitattributes */,
 				CB80CAC920375A3B00E110AE /* githubtest */,
 				CB80CAC820375A3B00E110AE /* Products */,
 			);
@@ -174,6 +177,7 @@
 				CB80CAD520375A3B00E110AE /* LaunchScreen.storyboard in Resources */,
 				CB80CAD220375A3B00E110AE /* Assets.xcassets in Resources */,
 				CB80CAD020375A3B00E110AE /* Main.storyboard in Resources */,
+				CB80CAF0203760E800E110AE /* .gitattributes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
