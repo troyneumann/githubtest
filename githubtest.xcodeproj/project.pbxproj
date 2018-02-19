@@ -26,6 +26,7 @@
 		CB80CAF7203761FB00E110AE /* gitattributes4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAF6203761FB00E110AE /* gitattributes4.swift */; };
 		CB80CAF92037620800E110AE /* gitattributes5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAF82037620800E110AE /* gitattributes5.swift */; };
 		CB80CAFB2037621300E110AE /* gitattributes6.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80CAFA2037621300E110AE /* gitattributes6.swift */; };
+		CBC2839A203B84630097E1BF /* Test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC28399203B84630097E1BF /* Test1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		CB80CAF6203761FB00E110AE /* gitattributes4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitattributes4.swift; sourceTree = "<group>"; };
 		CB80CAF82037620800E110AE /* gitattributes5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitattributes5.swift; sourceTree = "<group>"; };
 		CB80CAFA2037621300E110AE /* gitattributes6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitattributes6.swift; sourceTree = "<group>"; };
+		CBC28399203B84630097E1BF /* Test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				CB80CAF2203761DB00E110AE /* gitattributes1.swift */,
 				CB80CAF4203761EF00E110AE /* gitattributes2.swift */,
+				CBC28399203B84630097E1BF /* Test1.swift */,
 			);
 			path = AfterGitAttributes;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				CB80CAEC20375D9E00E110AE /* TestVc8ViewController.swift in Sources */,
 				CB80CAF5203761EF00E110AE /* gitattributes2.swift in Sources */,
 				CB80CAE820375D8B00E110AE /* TestVc5ViewController.swift in Sources */,
+				CBC2839A203B84630097E1BF /* Test1.swift in Sources */,
 				CB80CAEA20375D9400E110AE /* TestVC6ViewController.swift in Sources */,
 				CB80CACD20375A3B00E110AE /* ViewController.swift in Sources */,
 				CB80CACB20375A3B00E110AE /* AppDelegate.swift in Sources */,
